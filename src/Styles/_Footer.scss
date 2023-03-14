@@ -1,0 +1,33 @@
+.footer {
+  background-color: $TextColor;
+  color: $LightBackGround;
+  border-radius: 10px;
+  padding: 1% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a{
+    text-decoration: none;
+    color: $LightBackGround;
+  }
+  .logo-con {
+    width: 30%;
+    .logo {
+      font-family: "Pacifico", cursive;
+    }
+    p{
+        font-size: .9rem;
+    }
+  }
+  .social-media-con{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    img{
+        filter: invert(100%);
+        width: 30px;
+    }
+  }
+}

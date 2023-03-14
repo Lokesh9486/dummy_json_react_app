@@ -1,0 +1,59 @@
+.banner-con {
+  width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.316), rgba(10, 10, 10, 0.3)),
+    url("../image/Banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 2%;
+  h2 {
+    font-size: clamp(1.4rem,4vw,3rem);
+    font-family: "Pacifico", cursive;
+  }
+  .banner-text {
+    width: 35%;
+    text-align: center;
+  }
+  .check-con {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, white 60%, rgb(13, 112, 224));
+    div {
+      padding: 0 30px;
+      &:nth-child(1) {
+        padding-left: 10px;
+      }
+      &:nth-child(2) {
+        border-right: 1px solid rgb(112, 110, 110);
+        border-left: 1px solid rgb(112, 110, 110);
+      }
+      &:nth-child(3) {
+        padding-right: 100px;
+      }
+    }
+    p {
+      margin: 0px;
+      color: black;
+      font-weight: 500;
+    }
+    span {
+      color: rgb(112, 110, 110);
+    }
+    button {
+      border: none;
+      background-color: blue;
+      color: white;
+      padding: 7px 10px;
+      border-radius: 5px;
+    }
+  }
+}

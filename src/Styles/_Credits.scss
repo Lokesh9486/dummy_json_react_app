@@ -1,0 +1,17 @@
+.credits{
+    padding: 6% 2% ;
+    justify-content: space-between;
+    .cards{
+        width: 23%;
+    }
+    img{
+        width:clamp(2rem,12vw,5rem);
+    }
+    h5{
+        font-size: clamp(.7rem,2vw,1.1rem);
+    }
+    p{
+        font-size: clamp(.6rem,2vw,1rem);
+    }
+    
+}

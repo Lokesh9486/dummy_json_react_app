@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Pacifico&display=swap");
+
+.header {
+  background-color: $LightBackGround;
+  font-size: clamp(1.4rem, 2.4vw, 6rem);
+  padding: 1% 2%;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  button {
+    background-color: transparent;
+    border: 0;
+  }
+  svg {
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    color: $TextColor;
+  }
+  .search-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid $TextColor;
+    border-radius: 30px;
+    padding: 0.2% 1%;
+    width: 50%;
+    overflow: hidden;
+    input {
+      width: 90%;
+      border: 0;
+      background-color: transparent;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .search-btn {
+      width: 5%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        width: 60%;
+      }
+    }
+  }
+  .user-con {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    .userLogo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: clamp(1.5rem, 3vw, 2rem);
+    }
+    .down-cart {
+      width: clamp(0.9rem, 3vw, 1.1rem);
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .shopping-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(1.4rem, 3vw, 1.8rem);
+    position: relative;
+    span {
+      background-color: red;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: .7rem;
+      border-radius: 50%;
+      padding-inline: 5px;
+      top: -4px;
+      right: -5px;
+    }
+  }
+}
